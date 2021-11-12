@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Roboto-Regular';
+  font-family: 'Roboto';
   src: url('../fonts/Roboto-Regular.eot');
   src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'),
     url('../fonts/Roboto-Regular.ttf') format('truetype'),
@@ -8,7 +8,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Roboto-Medium';
+  font-family: 'Roboto';
   src: url('../fonts/Roboto-Medium.eot');
   src: local('☺'), url('../fonts/Roboto-Medium.woff') format('woff'),
     url('../fonts/Roboto-Medium.ttf') format('truetype'),
@@ -17,7 +17,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Roboto-Light';
+  font-family: 'Roboto';
   src: url('../fonts/Roboto-Light.eot');
   src: local('☺'), url('../fonts/Roboto-Light.woff') format('woff'),
     url('../fonts/Roboto-Light.ttf') format('truetype'),
@@ -26,7 +26,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Roboto-Bold';
+  font-family: 'Roboto';
   src: url('../fonts/Roboto-Bold.eot');
   src: local('☺'), url('../fonts/Roboto-Bold.woff') format('woff'),
     url('../fonts/Roboto-Bold.ttf') format('truetype'),
@@ -56,9 +56,12 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+html {
+  font-size: 10px;
+  line-height: 10px;
+}
 body {
-  font-family: Roboto-Regular, sans-serif;
+  font-family: Roboto, sans-serif;
   width: 100vw;
 }
 
