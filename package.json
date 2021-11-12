@@ -25,10 +25,7 @@
   },
   "dependencies": {
     "@jamesives/github-pages-deploy-action": "^4.1.5",
-    "@vimeo/player": "^2.16.1",
-    "gh-pages": "^3.2.3",
-    "lodash.throttle": "^4.1.1",
-    "simplelightbox": "^2.9.0"
+    "gh-pages": "^3.2.3"
   },
   "author": "Tarasov IV",
   "license": "ISC",
