@@ -1,3 +1,4 @@
+@use 'sass:math';
 @mixin button-padding($pad-lr) {
   padding-left: $pad-lr;
   padding-right: $pad-lr;
@@ -11,5 +12,6 @@
 
 @mixin font($fs, $lh) {
   font-size: $fs;
-  line-height: $lh/$fs;
+  $lh: math.div($lh, $fs);
+  line-height: $lh;
 }
