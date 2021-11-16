@@ -17,6 +17,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .brands__title {
+    margin-bottom: 70px;
+    padding: 0 50px;
+  }
   .brands__list {
     padding-left: 50px;
     padding-right: 50px;
@@ -31,6 +35,13 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .brands__title {
+    margin-bottom: 70px;
+  }
   .brands__list {
     margin-top: calc(-1 * 37px);
     margin-left: calc(-1 * 66px);
