@@ -2,8 +2,7 @@
   text-align: center;
   margin-bottom: 50px;
 }
-.mounting__list {
-}
+
 .mounting__list-item {
   display: flex;
   justify-content: center;
@@ -23,12 +22,11 @@
   align-items: center;
   //margin-left: calc(-1 * 16px);
   & > * {
-    flex-basis: calc((100% - 4 * 16px) / 2);
+    flex-basis: calc((100% - 2 * 20px) / 2);
     margin-left: 16px;
   }
 }
-.mounting__list-item-img {
-}
+
 .mounting__list-item-deskription {
   display: inline-block;
 }
