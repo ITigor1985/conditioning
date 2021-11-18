@@ -5,28 +5,40 @@
 
 .mounting__list-item {
   display: flex;
-  justify-content: center;
   align-items: center;
   min-height: 179px;
   background: var(--service-background);
   margin-bottom: 40px;
   border-radius: 9px;
-  &:last-child {
-    margin-bottom: 0;
-  }
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .mounting__list-item-link {
   color: var(--nav-text-color);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  //margin-left: calc(-1 * 16px);
-  & > * {
-    flex-basis: calc((100% - 2 * 20px) / 2);
-    margin-left: 16px;
-  }
+  flex-basis: 165;
+  max-width: 146px;
+}
+.mounting__list-item-img {
 }
 
 .mounting__list-item-deskription {
-  display: inline-block;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768) {
+  .mounting__list {
+    display: flex;
+    justify-content: space-around;
+  }
+  .mounting__list-item {
+    width: 290px;
+  }
+  .mounting__list-item-link {
+    margin-left: calc(-1 * -16px);
+    & > * {
+      flex-basis: calc((100% - 2 * 16px) / 2);
+      margin-left: 16px;
+    }
+  }
 }
