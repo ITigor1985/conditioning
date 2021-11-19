@@ -78,3 +78,15 @@ body {
   padding-top: 35px;
   padding-bottom: 35px;
 }
+@media screen and(min-width:768px) {
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and(min-width:1440px) {
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
