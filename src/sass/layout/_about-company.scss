@@ -1,0 +1,35 @@
+.about_company__title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.about_company__desсription {
+  margin-bottom: 18px;
+  width: 100%;
+  @include font(14px, 20px);
+  color: #3e3e3e;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.about-company__img-wrapper {
+  margin-bottom: 18px;
+}
+.about-company__img {
+  width: 100%;
+}
+
+@media screen and(min-width:768) {
+  .about_company__title {
+    margin-bottom: 56px;
+  }
+  .about_company__desсription {
+    margin-bottom: 40px;
+    @include font(18px, 22px);
+  }
+  .about_company__desсription.mb {
+    margin-bottom: 18px;
+  }
+  .about-company__img-wrapper {
+    margin-bottom: 40px;
+  }
+}
