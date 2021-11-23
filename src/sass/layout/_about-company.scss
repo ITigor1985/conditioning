@@ -17,6 +17,17 @@
 .about-company__img {
   width: 100%;
 }
+.button {
+  display: block;
+  margin: 0 auto;
+  @include font(14px, 15px);
+  font-weight: 500;
+  padding: 12px 38px;
+  border: none;
+  border-radius: 9px;
+  background-color: #f9963c;
+  color: #fff;
+}
 
 @media screen and(min-width:768px) {
   .about-company .container {
@@ -36,6 +47,10 @@
   .about-company__img-wrapper {
     margin-bottom: 40px;
   }
+  .button {
+    @include font(16px, 15px);
+    padding: 18px 54px;
+  }
 }
 
 @media screen and(min-width:1440px) {
@@ -45,6 +60,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    width: 1023px;
   }
   .about-company__title {
     margin-bottom: 84px;
@@ -63,9 +79,16 @@
   }
   .about-company__img-wrapper {
     height: 0;
-    left: 200px;
+    left: 80px;
     position: absolute;
     top: 140px;
+  }
+  .last-mb {
+    margin-bottom: 22px;
+  }
+
+  .button {
+    margin-left: 479px;
   }
   //   .about-company__img {
   //     min-width: 100%;
