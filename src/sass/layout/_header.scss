@@ -11,7 +11,7 @@
 }
 .nav {
   color: var(--header-text-color);
-  @include font(14px, 16px);
+  @include font(18px, 20px);
   font-weight: 500;
   padding-left: 20px;
   position: absolute;
@@ -27,12 +27,12 @@
 }
 .nav-service-list {
   font-weight: 400;
-  padding-left: 50px;
+  padding-left: 30px;
   color: #000;
 }
 .mounting-list {
   font-weight: 400;
-  padding-left: 50px;
+  padding-left: 30px;
   color: #000;
 }
 .header-top {
