@@ -1,8 +1,52 @@
 <header class="header section">
-  <div class="container">
-    <button type="button" class="openNav">X</button>
-    <button type="button" class="closeNav is-hidden">X</button>
-    <nav class="is-hidden">
+  <div class="nav-container container">
+    <button type="button" class="openNav">
+      <picture>
+        <!-- <source
+          media="(min-width: 768px)"
+          srcset="./img/tablet/header/navmenu@1x.webp 1x, ./img/tablet/header/navmenu@2x.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="./img/tablet/header/navmenu@1x.png 1x, ./img/tablet/header/navmenu@2x.png 2x"
+        /> -->
+        <source
+          media="(max-width: 768px)"
+          srcset="./img/mobile/header/navmenu@1x.webp 1x, ./img/mobile/header/navmenu@2x.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(max-width: 768px)"
+          srcset="./img/mobile/header/navmenu@1x.png 1x, ./img/mobile/header/navmenu@2x.png 2x"
+        />
+        <img class="burger-menu" loading="lazy" src="#" alt="Бургер меню" />
+      </picture>
+    </button>
+    <button type="button" class="closeNav is-hidden">
+      <picture>
+        <!-- <source
+          media="(min-width: 768px)"
+          srcset="./img/tablet/header/closenav@1x.webp 1x, ./img/tablet/header/closenav@2x.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="./img/tablet/header/closenav@1x.png 1x, ./img/tablet/header/closenav@2x.png 2x"
+        /> -->
+        <source
+          media="(max-width: 768px)"
+          srcset="./img/mobile/header/closenav@1x.webp 1x, ./img/mobile/header/closenav@2x.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(max-width: 768px)"
+          srcset="./img/mobile/header/closenav@1x.png 1x, ./img/mobile/header/closenav@2x.png 2x"
+        />
+        <img class="burger-menu__close" loading="lazy" src="#" alt="Закрыть Бургер меню" />
+      </picture>
+    </button>
+    <nav class="nav is-hidden">
       <ul class="cond-nav-list list">
         <li class="cond-nav-item">
           <a href="" class="cond-nav-link-company link">О компании</a>
