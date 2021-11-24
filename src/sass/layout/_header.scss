@@ -26,12 +26,14 @@
   }
 }
 .nav-service-list {
+  @include font (16px, 18px);
   margin-top: 12px;
   font-weight: 400;
   padding-left: 10px;
   color: #000;
 }
 .mounting-list {
+  @include font (16px, 18px);
   margin-top: 12px;
   font-weight: 400;
   padding-left: 10px;
