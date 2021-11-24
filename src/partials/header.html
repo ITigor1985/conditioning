@@ -1,122 +1,134 @@
 <header class="header section">
   <div class="nav-container container">
-    <button type="button" class="openNav">
-      <picture>
-        <!-- <source
-          media="(min-width: 768px)"
-          srcset="./img/tablet/header/navmenu@1x.webp 1x, ./img/tablet/header/navmenu@2x.webp 2x"
-          type="image/webp"
-        />
-        <source
-          media="(min-width: 768px)"
-          srcset="./img/tablet/header/navmenu@1x.png 1x, ./img/tablet/header/navmenu@2x.png 2x"
-        /> -->
-        <source
-          media="(max-width: 768px)"
-          srcset="./img/mobile/header/navmenu@1x.webp 1x, ./img/mobile/header/navmenu@2x.webp 2x"
-          type="image/webp"
-        />
-        <source
-          media="(max-width: 768px)"
-          srcset="./img/mobile/header/navmenu@1x.png 1x, ./img/mobile/header/navmenu@2x.png 2x"
-        />
-        <img class="burger-menu" loading="lazy" src="#" alt="Бургер меню" />
-      </picture>
-    </button>
-    <button type="button" class="closeNav is-hidden">
-      <picture>
-        <!-- <source
-          media="(min-width: 768px)"
-          srcset="./img/tablet/header/closenav@1x.webp 1x, ./img/tablet/header/closenav@2x.webp 2x"
-          type="image/webp"
-        />
-        <source
-          media="(min-width: 768px)"
-          srcset="./img/tablet/header/closenav@1x.png 1x, ./img/tablet/header/closenav@2x.png 2x"
-        /> -->
-        <source
-          media="(max-width: 768px)"
-          srcset="./img/mobile/header/closenav@1x.webp 1x, ./img/mobile/header/closenav@2x.webp 2x"
-          type="image/webp"
-        />
-        <source
-          media="(max-width: 768px)"
-          srcset="./img/mobile/header/closenav@1x.png 1x, ./img/mobile/header/closenav@2x.png 2x"
-        />
-        <img class="burger-menu__close" loading="lazy" src="#" alt="Закрыть Бургер меню" />
-      </picture>
-    </button>
-    <nav class="nav is-hidden">
-      <ul class="cond-nav-list list">
-        <li class="cond-nav-item">
-          <a href="" class="cond-nav-link-company link">О компании</a>
-        </li>
-        <li class="cond-nav-item">
-          <a href="" class="cond-nav-link-service link">Услуги</a>
-          <button type="button " class="down">1</button>
-          <button type="button " class="up is-hidden">2</button>
-          <ul class="nav-service-list list is-hidden">
-            <li class="nav-service-list__item">
-              <a href="" class="service-list__link-cleaner"> Чистка кондиционера </a>
-            </li>
-            <li class="nav-service-list__item">
-              <a href="" class="service-list__link-diagnostic"> Диагностика работы кондиционера </a>
-            </li>
-            <li class="nav-service-list__item">
-              <a href="" class="service-list__link-change">
-                Замена платы внутреннего блока кондиционера
-              </a>
-            </li>
-            <li class="nav-service-list__item">
-              <a href="" class="service-list__link-dismantling"> Демонтаж кондиционера </a>
-            </li>
+    <div class="header-top">
+      <button type="button" class="openNav">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./img/tablet/header/navmenu@1x.webp 1x, ./img/tablet/header/navmenu@2x.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./img/tablet/header/navmenu@1x.png 1x, ./img/tablet/header/navmenu@2x.png 2x"
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="./img/mobile/header/navmenu@1x.webp 1x, ./img/mobile/header/navmenu@2x.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="./img/mobile/header/navmenu@1x.png 1x, ./img/mobile/header/navmenu@2x.png 2x"
+          />
+          <img class="burger-menu" loading="lazy" src="#" alt="Бургер меню" />
+        </picture>
+      </button>
+      <button type="button" class="closeNav is-hidden">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/tablet/header/closenav@1x.webp 1x,
+              ./img/tablet/header/closenav@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./img/tablet/header/closenav@1x.png 1x, ./img/tablet/header/closenav@2x.png 2x"
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="
+              ./img/mobile/header/closenav@1x.webp 1x,
+              ./img/mobile/header/closenav@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="./img/mobile/header/closenav@1x.png 1x, ./img/mobile/header/closenav@2x.png 2x"
+          />
+          <img class="burger-menu__close" loading="lazy" src="#" alt="Закрыть Бургер меню" />
+        </picture>
+      </button>
+      <nav class="nav is-hidden">
+        <ul class="cond-nav-list list">
+          <li class="cond-nav-item">
+            <a href="" class="cond-nav-link-company link">О компании</a>
+          </li>
+          <li class="cond-nav-item">
+            <a href="" class="cond-nav-link-service link">Услуги</a>
+            <button type="button " class="down">1</button>
+            <button type="button " class="up is-hidden">2</button>
+            <ul class="nav-service-list list is-hidden">
+              <li class="nav-service-list__item">
+                <a href="" class="service-list__link-cleaner"> Чистка кондиционера </a>
+              </li>
+              <li class="nav-service-list__item">
+                <a href="" class="service-list__link-diagnostic">
+                  Диагностика работы кондиционера
+                </a>
+              </li>
+              <li class="nav-service-list__item">
+                <a href="" class="service-list__link-change">
+                  Замена платы внутреннего блока кондиционера
+                </a>
+              </li>
+              <li class="nav-service-list__item">
+                <a href="" class="service-list__link-dismantling"> Демонтаж кондиционера </a>
+              </li>
 
-            <li class="nav-service-list__item">
-              <a href="" class="service-list__link-refueling">Заправка кондиционера</a>
-            </li>
-          </ul>
-        </li>
-        <li class="cond-nav-item">
-          <a href="" class="cond-nav-link-mounting">Монтаж кондиционера</a>
-          <button type="button " class="downMount">1</button>
-          <button type="button " class="upMount is-hidden">2</button>
-          <ul class="mounting-list list is-hidden">
-            <li class="mounting-list__item">
-              <a href="" class="mounting-list__link-wall-mounted"
-                >Установка настенного кондиционера</a
-              >
-            </li>
-            <li class="mounting-list__item">
-              <a href="" class="mounting-list__link-duct">Установка канального кондиционера</a>
-            </li>
-            <li class="mounting-list__item">
-              <a href="" class="mounting-list__link-cassette">Установка кассетного кондиционера</a>
-            </li>
-            <li class="mounting-list__item">
-              <a href="" class="mounting-list__link-multisplit">
-                Установка мульти-сплит кондиционеров
-              </a>
-            </li>
-            <li class="mounting-list__item">
-              <a href="" class="mounting-list__link-wall-ceiling">
-                Установка настенно-потолочного кондиционера
-              </a>
-            </li>
-            <li class="mounting-list__item">
-              <a href="" class="mounting-list__link-window">Установка оконного кондиционера</a>
-            </li>
-          </ul>
-        </li>
-        <li class="cond-nav-item">
-          <a href="" class="cond-nav-link-price">Прайс</a>
-        </li>
-        <li class="cond-nav-item">
-          <a href="" class="cond-nav-link-articles">Полезные статьи</a>
-        </li>
-        <li class="cond-nav-item">
-          <a href="" class="cond-nav-link-contacts">Контакты</a>
-        </li>
-      </ul>
-    </nav>
+              <li class="nav-service-list__item">
+                <a href="" class="service-list__link-refueling">Заправка кондиционера</a>
+              </li>
+            </ul>
+          </li>
+          <li class="cond-nav-item">
+            <a href="" class="cond-nav-link-mounting">Монтаж кондиционера</a>
+            <button type="button " class="downMount">1</button>
+            <button type="button " class="upMount is-hidden">2</button>
+            <ul class="mounting-list list is-hidden">
+              <li class="mounting-list__item">
+                <a href="" class="mounting-list__link-wall-mounted"
+                  >Установка настенного кондиционера</a
+                >
+              </li>
+              <li class="mounting-list__item">
+                <a href="" class="mounting-list__link-duct">Установка канального кондиционера</a>
+              </li>
+              <li class="mounting-list__item">
+                <a href="" class="mounting-list__link-cassette"
+                  >Установка кассетного кондиционера</a
+                >
+              </li>
+              <li class="mounting-list__item">
+                <a href="" class="mounting-list__link-multisplit">
+                  Установка мульти-сплит кондиционеров
+                </a>
+              </li>
+              <li class="mounting-list__item">
+                <a href="" class="mounting-list__link-wall-ceiling">
+                  Установка настенно-потолочного кондиционера
+                </a>
+              </li>
+              <li class="mounting-list__item">
+                <a href="" class="mounting-list__link-window">Установка оконного кондиционера</a>
+              </li>
+            </ul>
+          </li>
+          <li class="cond-nav-item">
+            <a href="" class="cond-nav-link-price">Прайс</a>
+          </li>
+          <li class="cond-nav-item">
+            <a href="" class="cond-nav-link-articles">Полезные статьи</a>
+          </li>
+          <li class="cond-nav-item">
+            <a href="" class="cond-nav-link-contacts">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>
