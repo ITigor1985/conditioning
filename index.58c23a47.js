@@ -1,2 +1,0 @@
-const e={btnDwn:document.querySelector(".down"),btnUp:document.querySelector(".up"),navServiceList:document.querySelector(".nav-service-list"),navMountingList:document.querySelector(".mounting-list")};e.btnDwn.addEventListener("click",(function(){e.btnDwn.classList.add("is-hidden"),e.navServiceList.classList.remove("is-hidden"),e.btnUp.classList.remove("is-hidden")})),e.btnUp.addEventListener("click",(function(){e.btnDwn.classList.remove("is-hidden"),e.navServiceList.classList.add("is-hidden"),e.btnUp.classList.add("is-hidden")}));
-//# sourceMappingURL=index.58c23a47.js.map
