@@ -80,8 +80,8 @@
 }
 .header-middle{
   margin: 0 auto;
-  width: 425px;
-  height: 100vh;
+  max-width: 425px;
+    height: 100vh;
   background: center / cover  url(../img/mobile/header/bg-mobile.jpg) no-repeat;
   padding-top: 215px;
   color:var(--header-text-color);
