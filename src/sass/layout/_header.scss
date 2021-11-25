@@ -46,8 +46,7 @@
 .header-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  
+  align-items: center;  
   padding-bottom: 18px;
 }
 
@@ -81,7 +80,7 @@
 }
 .header-middle{
   margin: 0 auto;
-  width: 100vw;
+  width: 425px;
   height: 100vh;
   background: center / cover  url(../img/mobile/header/bg-mobile.jpg) no-repeat;
   padding-top: 215px;
@@ -97,5 +96,53 @@ margin-bottom: 18px;
   font-weight: 500;
   @include font (20px, 40px);
   text-align: center;
+  margin-bottom: 33px;
+}
+.header-form{
+  margin: 0 auto;
+  background: #fff;
+  min-width: 290px;
+  width:317px;
+  border-radius: 9px;
+}
+.form{
+  padding: 24px 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-title{
+  font-weight: 900;
+  @include font (24px, 30px);
+text-align: center;
+color: var(--header-text-color);
+margin-bottom: 15px;
+}
+.form-description{
+  @include font (14px, 19px);
+color: #6B6B6B;
+margin-bottom: 15px;
+}
+.form-input{
+  padding-left: 13px;
+  height: 40px;
+  width: 244px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.6;
+border: 2px solid #262C9B;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+::placeholder{
+  font-style: italic;
+font-weight: 300;
+@include font (12px, 15px);
+color: #989898;
+}
+.form .button{
+  padding: 8px 78px;
+  font-weight: 500;
+  @include font (16px, 25px);
 }
 
