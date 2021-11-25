@@ -48,3 +48,8 @@ function dropUpMount() {
   refs.navMountingList.classList.add('is-hidden');
   refs.btnUpMount.classList.add('is-hidden');
 }
+
+const screenWidth = window.screen.width;
+if (screenWidth >= 1440) {
+  refs.nav.classList.remove('is-hidden');
+}
