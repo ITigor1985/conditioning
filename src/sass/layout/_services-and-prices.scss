@@ -50,7 +50,7 @@
     justify-content: space-between;
     align-items: start;
     padding-bottom: 18px;
-    height: 90px;
+    height: 108px;
   }
   .services-and-prices__title {
     margin-bottom: 70px;
@@ -93,6 +93,7 @@
     @include font(18px, 19px);
   }
   .services-and-prices__list-item-wrapper {
+    height: 133px;
     padding: 20px 15px 24px;
   }
   .services-and-prices.section {
