@@ -336,19 +336,46 @@
   .header-middle.container {
     height: 858px;
     background: url(../img/desktop/header/bg-desktop.jpg) no-repeat;
-    padding-top: 224px;
+    padding-top: 123px;
   }
   .header__title {
     padding-left: 75px;
     text-align: left;
     @include font(60px, 59px);
-    margin-bottom: 27px;
+    margin-bottom: 59px;
   }
   .header__description {
     padding-left: 75px;
     text-align: left;
     font-weight: 700;
     @include font(40px, 40px);
-    margin-bottom: 27px;
+    margin-bottom: 61px;
+  }
+  .button.desktop {
+    padding: 10px 95px;
+    margin-left: 0;
+  }
+  .form {
+    background: #fff;
+    max-width: 388px;
+    padding: 26px 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+    margin-left: 75px;
+  }
+  .form-title {
+    @include font(32px, 30px);
+    margin-bottom: 22px;
+  }
+  .form-description {
+    @include font(16px, 19px);
+    margin-bottom: 22px;
+  }
+  .form-input {
+    padding-left: 12px;
+    height: 40px;
+    margin-bottom: 23px;
   }
 }
