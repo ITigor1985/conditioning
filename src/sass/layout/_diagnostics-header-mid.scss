@@ -1,0 +1,18 @@
+.header-middle.container.diagnostics {
+  height: 737px;
+  background: url(../img/mobile/header/diagnostics-header-bg.jpg) no-repeat;
+  background-size: 100%;
+  color: var(--header-text-color);
+  padding-top: 215px;
+}
+@media screen and (min-width: 1440px) {
+  .header-middle.container.diagnostics {
+    height: 776px;
+    background: url(../img/desktop/header/diagnostics-dk-bg.jpg) no-repeat;
+    padding-top: 144px;
+  }
+  .header-middle.container.diagnostics .header__title,
+  .header-middle.container.diagnostics .header__description {
+    color: #fff;
+  }
+}
