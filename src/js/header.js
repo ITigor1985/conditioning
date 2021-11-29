@@ -8,6 +8,7 @@ const refs = {
   btnOpenNav: document.querySelector('.openNav'),
   btnCloseNav: document.querySelector('.closeNav'),
   nav: document.querySelector('nav'),
+  linkButton: document.querySelector('.cond-nav-item.service')
 };
 
 refs.btnOpenNav.addEventListener('click', openNav);
@@ -42,14 +43,19 @@ function dropDownMount() {
   refs.navMountingList.classList.remove('is-hidden');
   refs.btnUpMount.classList.remove('is-hidden');
 }
-refs.btnUpMount.addEventListener('click', dropUpMount);
+const a = refs.btnUpMount.addEventListener('click', dropUpMount);
+
 function dropUpMount() {
   refs.btnDwnMount.classList.remove('is-hidden');
   refs.navMountingList.classList.add('is-hidden');
   refs.btnUpMount.classList.add('is-hidden');
+  
 }
 
 const screenWidth = window.screen.width;
 if (screenWidth >= 1440) {
+  console.log(screenWidth);
   refs.nav.classList.remove('is-hidden');
 }
+
+
