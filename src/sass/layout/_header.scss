@@ -90,13 +90,7 @@
   color: var(--header-text-color);
   padding-top: 215px;
 }
-.header-middle.container.cleaner {
-  height: 737px;
-  background: url(../img/mobile/header/cleaner-mb-bg.jpg) no-repeat;
-  background-size: 100%;
-  color: var(--header-text-color);
-  padding-top: 215px;
-}
+
 .header__title {
   @include font(24px, 28px);
   font-weight: 700;
@@ -349,15 +343,6 @@
     height: 858px;
     background: url(../img/desktop/header/bg-desktop.jpg) no-repeat;
     padding-top: 123px;
-  }
-  .header-middle.container.cleaner {
-    height: 776px;
-    background: url(../img/desktop/header/cleaner-dk-bg.jpg) no-repeat;
-    padding-top: 144px;
-  }
-  .header-middle.container.cleaner .header__title,
-  .header-middle.container.cleaner .header__description {
-    color: #fff;
   }
 
   .header__title {
