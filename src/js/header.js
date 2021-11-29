@@ -7,8 +7,7 @@ const refs = {
   btnUpMount: document.querySelector('.upMount'),
   btnOpenNav: document.querySelector('.openNav'),
   btnCloseNav: document.querySelector('.closeNav'),
-  nav: document.querySelector('nav'),
-  linkButton: document.querySelector('.cond-nav-item.service')
+  nav: document.querySelector('nav')
 };
 
 refs.btnOpenNav.addEventListener('click', openNav);
@@ -26,6 +25,9 @@ function closeNav() {
 
 refs.btnDwn.addEventListener('click', dropDown);
 function dropDown() {
+  if(!refs.navMountingList.classList.contains('is-hidden')){
+    dropUpMount();
+  }
   refs.btnDwn.classList.add('is-hidden');
   refs.navServiceList.classList.remove('is-hidden');
   refs.btnUp.classList.remove('is-hidden');
@@ -39,6 +41,9 @@ function dropUp() {
 
 refs.btnDwnMount.addEventListener('click', dropDownMount);
 function dropDownMount() {
+  if(!refs.navServiceList.classList.contains('is-hidden')){
+    dropUp();
+  }
   refs.btnDwnMount.classList.add('is-hidden');
   refs.navMountingList.classList.remove('is-hidden');
   refs.btnUpMount.classList.remove('is-hidden');
