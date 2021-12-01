@@ -1,10 +1,10 @@
-import {slick} from 'slick-carousel/slick'
+
 
 
   $(document).ready(function () {
     
    
-      $('.gallery-item').slick({
+      $('.gallery__item').slick({
         dots: true,
         arrows: true,
       });
