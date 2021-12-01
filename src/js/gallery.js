@@ -4,8 +4,7 @@
   $(document).ready(function () {
     
    
-      $('.gallery__item').slick({
-        dots: true,
+      $('.gallery__list').slick({
         arrows: true,
       });
   });
