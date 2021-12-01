@@ -38,8 +38,6 @@
 @media screen and(min-width:768px) {
   .gallery__list.slick-initialized.slick-slider {
     justify-content: center;
-    padding-right: 100px;
-    padding-left: 100px;
   }
   .gallery.section {
     padding-bottom: 100px;
@@ -61,22 +59,20 @@
   }
 }
 @media screen and(min-width:1440px) {
-  .gallery__list.slick-initialized.slick-slider {
-    display: flex;
+  .gallery__item {
+    flex-direction: row;
+    margin-bottom: 0;
   }
   .gallery__title {
     margin-bottom: 84px;
     text-align: center;
   }
-  .slick-track {
-    display: flex;
-  }
 
-  .slick-next {
-    height: 26px;
-    width: 141px;
-    right: 150px;
-    top: 300px;
-    background: url('../img/desktop/gallery/arrow.png');
-  }
+  // .slick-next {
+  //   height: 26px;
+  //   width: 141px;
+  //   right: 150px;
+  //   top: 300px;
+  //   background: url('../img/desktop/gallery/arrow.png');
+  // }
 }
