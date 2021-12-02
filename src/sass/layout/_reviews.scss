@@ -1,0 +1,90 @@
+.reviews .container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.reviews.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.reviews__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.reviews__item {
+  border-radius: 15px;
+  border: 2px solid #96bee4;
+  padding-bottom: 25px;
+  overflow: hidden;
+}
+.img-wrapper {
+  width: 100%;
+  position: relative;
+  margin-bottom: 40px;
+  border: 5px solid #fff;
+}
+.reviews__portret-item-img {
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  transform: translateX(-50%);
+}
+.reviews__list-item-img {
+  width: 100%;
+}
+.deskription-wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.reviews__name {
+  font-weight: 700;
+  @include font(18px, 21px);
+  color: #000000;
+  margin-bottom: 9px;
+}
+.reviews__brand-condition {
+  @include font(16px, 19px);
+  color: #717171;
+  margin-bottom: 21px;
+}
+.reviews__work-performed {
+  background-color: #f2f2f2;
+  border-radius: 9px;
+  min-width: 216px;
+  max-width: 241px;
+  margin: 0 auto;
+  padding: 13px 7px;
+  margin-bottom: 23px;
+}
+.list__work {
+  @include font(14px, 16px);
+  margin-bottom: 9px;
+}
+.list-works__item {
+  @include font(14px, 16px);
+  margin-bottom: 7px;
+  color: #2f4377;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.reviews__description {
+  @include font(14px, 16px);
+  margin-bottom: 7px;
+}
+.reviews__description + p {
+  @include font(14px, 16px);
+}
+.reviews .slick-prev {
+  display: none !important;
+}
+
+.reviews .slick-next {
+  bottom: -60px;
+  right: -20px;
+}
+
+@media screen and(min-width:768px) {
+  .reviews__item {
+    display: flex;
+  }
+}
