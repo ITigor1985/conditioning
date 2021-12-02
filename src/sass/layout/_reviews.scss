@@ -120,11 +120,48 @@
     padding-bottom: 80px;
   }
 }
-// @media screen and(min-width:1440px) {
-//   .img-wrapper {
-//     display: block;
-//     max-width: 369px;
-//     position: relative;
-//     border: 5px solid #fff;
-//   }
-// }
+@media screen and(min-width:1440px) {
+  .reviews .container {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .img-wrapper {
+    max-width: 369px;
+    position: relative;
+    border: 5px solid #fff;
+    margin-right: 40px;
+  }
+  .reviews .slick-next {
+    top: 380px;
+    right: -60px;
+  }
+  .reviews__name {
+    @include font(20px, 23px);
+    margin-bottom: 9px;
+  }
+  .list__work {
+    @include font(16px, 19px);
+  }
+  .list-works__item {
+    @include font(16px, 19px);
+  }
+  .reviews__description {
+    @include font(16px, 19px);
+    margin-bottom: 7px;
+  }
+  .reviews__description + p {
+    @include font(16px, 19px);
+  }
+  .reviews__portret-item-img {
+    position: absolute;
+    left: 100%;
+    top: 35%;
+    transform: translateX(-50%);
+  }
+  .reviews__item {
+    align-items: center;
+  }
+  .reviews__work-performed {
+    max-width: 400px;
+  }
+}
