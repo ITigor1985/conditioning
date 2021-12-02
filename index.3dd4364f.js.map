@@ -1,1 +1,0 @@
-{"mappings":"AAAAA,EAAEC,UAAUC,OAAM,WAEdF,EAAE,kBAAkBG,MAAM,CACxBC,QAAQ","sources":["src/js/reviews.js"],"sourcesContent":["$(document).ready(function () {  \n   \n    $('.reviews__list').slick({\n      arrows: true,\n    });\n});"],"names":["$","document","ready","slick","arrows"],"version":3,"file":"index.3dd4364f.js.map"}
