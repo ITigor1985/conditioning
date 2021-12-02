@@ -1,1 +1,0 @@
-{"mappings":"AAGEA,EAAEC,UAAUC,OAAM,WAGdF,EAAE,kBAAkBG,MAAM,CACxBC,QAAQ","sources":["src/js/gallery.js"],"sourcesContent":["\n\n\n  $(document).ready(function () {\n    \n   \n      $('.gallery__list').slick({\n        arrows: true,\n      });\n  });"],"names":["$","document","ready","slick","arrows"],"version":3,"file":"index.5d64c127.js.map"}
