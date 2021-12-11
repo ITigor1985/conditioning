@@ -17,6 +17,18 @@
 .about-company__img {
   width: 100%;
 }
+
+.about-company-list{
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  @include font(14px, 20px);
+  
+}
+
+.about-company-list-item{
+  margin-bottom: 10px;
+}
+
 .button {
   display: block;
   margin: 0 auto;
@@ -51,6 +63,12 @@
     @include font(16px, 15px);
     padding: 18px 54px;
   }
+  .about-company-list{
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    @include font(18px, 22px);
+    
+  }
 }
 
 @media screen and(min-width:1440px) {
@@ -79,14 +97,14 @@
     font-weight: 300;
     letter-spacing: 0.05em;
     @include font(18px, 22px);
-    list-style-type: "\1F44D";
+    // list-style-type: "\1F44D";
     
   }
 
   .about-company-list-item{
     margin-bottom: 10px;
   }
-  .about-company__desсription.mb {
+  .about-company__desсription {
     margin-bottom: 18px;
     @include font(20px, 23.5px);
   }
