@@ -104,10 +104,10 @@
   .about-company-list-item{
     margin-bottom: 10px;
   }
-  .about-company__desсription {
-    margin-bottom: 18px;
-    @include font(20px, 23.5px);
-  }
+  // .about-company__desсription {
+  //   margin-bottom: 18px;
+  //   @include font(20px, 23.5px);
+  // }
   .about-company__img-wrapper {
     
     left: 0px;
@@ -122,7 +122,5 @@
   .button {
     margin-left: 399px;
   }
-  //   .about-company__img {
-  //     min-width: 100%;
-  //   }
+  
 }
