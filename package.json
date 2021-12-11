@@ -26,6 +26,8 @@
   },
   "dependencies": {
     "@jamesives/github-pages-deploy-action": "^4.1.5",
+    "@lion/accordion": "^0.7.2",
+    "accordion": "^3.0.2",
     "gh-pages": "^3.2.3",
     "normalize-scss": "^7.0.1",
     "sass": "^1.43.4",
