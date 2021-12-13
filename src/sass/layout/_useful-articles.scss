@@ -1,0 +1,103 @@
+// .useful-articles {
+//   background-color: #e5e5e5;
+// }
+.list-card {
+  & > :first-child {
+    margin-top: 0;
+  }
+}
+.useful-articles__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.list-card__item {
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.list-card__link {
+  display: block;
+  border-radius: 0 0 10px 10px;
+
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+}
+
+.list-card__image-wrapper img {
+  width: 316px;
+  height: 182px;
+  border-radius: 9px;
+  overflow: hidden;
+  object-fit: cover;
+}
+// .list-card__image-wrapper {
+//   width: 316px;
+//   height: 182px;
+// }
+
+@media screen and (min-width: 768px) {
+  .useful-articles .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .useful-articles__title {
+    margin-bottom: 60px;
+  }
+  .list-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * 30px);
+    margin-top: calc(-1 * 30px);
+  }
+  .list-card__item {
+    .list-card > & {
+      flex-basis: calc(100% / 2 - 30px);
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+    &:not(:last-child) {
+      margin-bottom: 0px;
+    }
+  }
+  .list-card__image-wrapper img {
+    width: 283px;
+    height: 162px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .useful-articles .container {
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+  .list-card__item {
+    .list-card > & {
+      flex-basis: calc(100% / 3 - 30px);
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+  }
+
+  .list-card__image-wrapper img {
+    width: 316px;
+    height: 182px;
+  }
+}
+
+.list-card__content {
+  text-align: center;
+  padding: 10px 0 10px 0px;
+  border-radius: 9px;
+  @media screen and(min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 68px;
+  }
+  // background-color: #fff;
+}
