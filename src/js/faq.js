@@ -1,10 +1,12 @@
+const faqs= document.querySelectorAll('.faq');
+faqs.forEach(faq => {
+    faq.addEventListener('click', faqActive);
+    function faqActive(){
+        faq.classList.toggle('active');
+    }
+})
 
 
-import Accordion from 'accordion/src/accordion.mjs'
-import 'accordion/src/accordion.css'
-
-var el = document.querySelector(".accordion");
-new Accordion(el);
 
 
 
