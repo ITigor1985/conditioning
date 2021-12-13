@@ -12,12 +12,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .question h3 {
   font-weight: 700;
   @include font(14px, 21px);
-  margin-bottom: 15px;
 }
 
 .answer {
@@ -44,8 +44,43 @@
 
 svg {
   transition: transforme 0.5s ease-in;
+  margin-left: 10px;
   min-width: 15px;
   min-height: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .faq {
+    max-width: 618px;
+    margin: 0 auto 18px;
+  }
+  .question {
+    margin-bottom: 20px;
+  }
+  .question h3 {
+    @include font(18px, 21px);
+  }
+  .answer p {
+    @include font(16px, 21px);
+    padding-bottom: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .faq {
+    max-width: 807px;
+    margin: 0 auto 20px;
+  }
+  .question {
+    margin-bottom: 20px;
+  }
+  .question h3 {
+    @include font(18px, 21px);
+  }
+  .answer p {
+    @include font(16px, 21px);
+    padding-bottom: 18px;
+  }
 }
 
 @keyframes fade {
