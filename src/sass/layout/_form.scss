@@ -4,7 +4,10 @@
   border-radius: 9px;
 }
 .form .button {
-  padding: 8px 90px;
+  padding: 8px 79px;
+  border: none;
+  margin-left: 0;
+  margin-right: 0;
 }
 .form-img {
   display: none;
@@ -45,5 +48,8 @@
     height: 486px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+  }
+  .form .button {
+    width: 295px;
   }
 }

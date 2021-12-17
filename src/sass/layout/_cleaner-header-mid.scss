@@ -5,6 +5,10 @@
   color: var(--header-text-color);
   padding-top: 215px;
 }
+
+.form.shadow {
+  margin-bottom: 93px;
+}
 @media screen and (min-width: 1440px) {
   .header-middle.container.cleaner {
     height: 776px;
