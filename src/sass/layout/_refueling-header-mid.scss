@@ -1,4 +1,4 @@
-.header-middle.container.diagnostics {
+.header-middle.container.refueling {
   height: 737px;
   background: url(../img/mobile/header/diagnostics-header-bg.jpg) no-repeat;
   background-size: 100%;
@@ -6,15 +6,15 @@
   padding-top: 215px;
 }
 @media screen and (min-width: 1440px) {
-  .header-middle.container.diagnostics {
+  .header-middle.container.refueling {
     height: 776px;
     background: url(../img/desktop/header/diagnostics-dk-bg.jpg) no-repeat;
     padding-top: 120px;
     margin-bottom: 50px;
   }
 
-  .header-middle.container.diagnostics .header__title,
-  .header-middle.container.diagnostics .header__description {
+  .header-middle.container.refueling .header__title,
+  .header-middle.container.refueling .header__description {
     color: #fff;
   }
 }
