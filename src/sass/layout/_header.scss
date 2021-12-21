@@ -148,6 +148,11 @@
   font-weight: 500;
   @include font(16px, 25px);
 }
+
+.contacts{
+  border: none;
+  background-color: inherit;
+}
 @media screen and(min-width:768px) {
   .header.section {
     padding-top: 25px;
